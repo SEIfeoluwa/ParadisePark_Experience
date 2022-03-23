@@ -20,6 +20,6 @@
 ### ***Getting Started***
 
 #####
-![Trello board](https://trello.com/b/oHelpYRE/theme-park-mern)
+##### [Trello board](https://trello.com/b/oHelpYRE/theme-park-mern)
 ***
 
