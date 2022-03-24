@@ -7,18 +7,18 @@ import './styles/App.css';
 
 
 const App = () => {
-const makeApiCall = async () => {
-  let res = await axios.get('http://localhost:3001/reviews')
-  console.log(res.data.reviews)
-} 
-makeApiCall();
+  const makeApiCall = async () => {
+    let res = await axios.get('http://localhost:3001/reviews')
+    console.log(res.data.reviews)
+  }
+  makeApiCall();
   return (
     <div className="App">
       <Routes>
-        <Route index element={ <Landing /> }/>
-        <Route path='/review' element={ <Read />} />
-        <Route path='/read' element={ <Review /> } />
-      </Routes>  
+        <Route index element={<Landing />} />
+        <Route path='/review' element={<Read />} />
+        <Route path='/read' element={<Review />} />
+      </Routes>
     </div>
   );
 }
