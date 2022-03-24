@@ -9,7 +9,7 @@ import './styles/App.css';
 const App = () => {
 const makeApiCall = async () => {
   let res = await axios.get('http://localhost:3001/reviews')
-  console.log(res.data.reviews)
+  console.log(res.data.reviews.id)
 } 
 makeApiCall();
   return (
