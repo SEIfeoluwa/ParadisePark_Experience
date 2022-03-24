@@ -2,7 +2,7 @@
   "name": "paradisepark_experience",
   "version": "1.0.0",
   "description": "## Date: 3/23/2022",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -23,6 +23,8 @@
     "mongoose": "^6.2.8"
   },
   "devDependencies": {
-    "chance": "^1.1.8"
+    "chance": "^1.1.8",
+    "nodemon": "^2.0.15"
   }
+  
 }

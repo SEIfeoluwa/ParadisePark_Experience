@@ -5,6 +5,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 const createReviews = async () => {
     const reviews = [{
+        username: "joe4500",
         description: "This place was amazing.",
         rating: 5
     }]
