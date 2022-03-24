@@ -2,9 +2,11 @@
   "name": "paradisepark_experience",
   "version": "1.0.0",
   "description": "## Date: 3/23/2022",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,12 @@
   },
   "homepage": "https://github.com/SEIfeoluwa/ParadisePark_Experience#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
     "mongoose": "^6.2.8"
   },
   "devDependencies": {
-    "chance": "^1.1.8"
+    "chance": "^1.1.8",
+    "nodemon": "^2.0.15"
   }
 }
