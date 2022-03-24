@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(bodyParser.json());
 
-app.use('/api', routes);
+app.use('/', routes);
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
