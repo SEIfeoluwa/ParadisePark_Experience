@@ -1,0 +1,26 @@
+{
+  "name": "paradisepark_experience",
+  "version": "1.0.0",
+  "description": "## Date: 3/23/2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEIfeoluwa/ParadisePark_Experience.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEIfeoluwa/ParadisePark_Experience/issues"
+  },
+  "homepage": "https://github.com/SEIfeoluwa/ParadisePark_Experience#readme",
+  "dependencies": {
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "chance": "^1.1.8"
+  }
+}
