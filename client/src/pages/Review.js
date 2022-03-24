@@ -6,12 +6,8 @@ const Review = () => {
         <div>
             <Header />
             <section>
-                <p>
-                    Name: ?
-                    Feedback: ?
-                    NumRating: ?
-                </p>
-                {/*A form to input and object into the database*/}
+                
+                <Form />
             </section>
         </div>
     )
