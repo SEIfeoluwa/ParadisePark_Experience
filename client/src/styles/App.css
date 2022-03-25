@@ -154,12 +154,8 @@ body {
 .landing-button:hover {
   background-color: #516EFE;
 }
-<<<<<<< HEAD
-=======
 
-#lb2:hover {
-  background-color: gold;
-}
+
 .revCard {
   height: 150px;
   width: 500px;
@@ -207,4 +203,3 @@ body {
 .rec {
   color: white;
 }
->>>>>>> 51ef4d31e598602f06df8ecc35927a9f9097e291
