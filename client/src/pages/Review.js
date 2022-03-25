@@ -3,7 +3,7 @@ import Form from '../components/Form'
 
 const Review = () => {
     return (
-        <div>
+        <div className='review-page'>
             <Header />
             <section>
                 
