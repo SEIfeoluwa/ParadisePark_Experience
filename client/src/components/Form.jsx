@@ -35,14 +35,29 @@ const Form = () => {
     }
 
     return (
-        <div>
-            <form onSubmit={(e) => handleSubmit(e)}>
-                Name: <input type="text" name="Name" onChange={handleChange} />
-                Description: <input type="text" name="Description" onChange={handleChange2} />
-                Rating: <input type="number" name="Rating" onChange={handleChange3} />
-                <button>Submit</button>
-            </form>
-        </div>
+        <form class="form-layout" onSubmit={(e) => handleSubmit(e)}>
+            <h1>Your Experience Form</h1>
+            <ul>
+                <li>
+                    <label for="name">Username</label>
+                    <input type="text" name="Name" onChange={handleChange} maxlength="100" />
+                        <span>Enter your username</span>
+                </li>
+                <li>
+                    <label for="description">Description</label>
+                    <input type="text" name="Description" onChange={handleChange2} maxlength="100" />
+                        <span>Enter how you feel about our amusement park</span>
+                </li>
+                <li>
+                    <label for="rating">Rating</label>
+                    <input type="number" name="Rating" onChange={handleChange3}/>
+                    <span>Give a rating from 1 being bad to 5 living in paradise</span>
+                </li>
+                <li>
+                    <button className='form-layout-button'>Submit</button>
+                </li>
+            </ul>
+        </form>
     )
 }
 
