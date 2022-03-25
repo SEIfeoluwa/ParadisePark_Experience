@@ -15,10 +15,12 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
+
         <Route index element={<Landing />} />
         <Route path='/read' element={<Read />} />
         <Route path='/review' element={<Review />} />
       </Routes>
+
     </div>
   );
 }
