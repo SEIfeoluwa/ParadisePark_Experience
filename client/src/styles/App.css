@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.landing {
+  overflow: hidden;
+  position: relative;
+}
+
+.title{
+  position: relative;
+  font-family: 'Rye', cursive;
+  font-size: 37px;
+  color: #e65050;
+}
+
+.landing-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+
+.landing-button {
+  position: relative;
+  margin: 25px;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+#lb1:hover {
+  background-color: mediumblue;
+}
+
+#lb2:hover {
+  background-color: gold;
+}
