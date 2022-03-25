@@ -23,7 +23,6 @@ const Form = () => {
     }
 
     function handleSubmit(e) {
-        e.preventDefault();
         axios({
             url: "http://localhost:3001/createReviews",
             method: 'post',

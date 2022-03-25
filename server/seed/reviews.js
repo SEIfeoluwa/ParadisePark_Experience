@@ -56,7 +56,6 @@ const createReviews = async () => {
     }
 ]
 
-
     await Review.insertMany(reviews)
     console.log('Created Reviews!')
     return reviews
