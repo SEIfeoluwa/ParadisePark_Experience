@@ -1,41 +1,118 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
+
+
+.form-layout {
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.form-layout h1 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #516efe;
+    font-size: x-large;
+}
+
+.form-layout ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-layout li {
+    display: block;
+    padding: 9px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.form-layout li:last-child {
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.form-layout li>label {
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: white;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: black;
+    font-size: 14px;
+    overflow: hidden;
+
+}
+
+.form-layout input[type="text"],
+.form-layout input[type="number"],
+.form-layout select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+
+
+
+.form-layout li>span {
+    background: #53dde5;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: black;
+    font-size: 11px;
 
 
 
@@ -104,5 +181,6 @@
   display: flex;
   width: fit-content;
   margin: 0 0 0 0;
+
 
 }
