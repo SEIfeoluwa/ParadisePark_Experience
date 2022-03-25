@@ -48,7 +48,7 @@
   position: relative;
   font-family: 'Rye', cursive;
   font-size: 37px;
-  color: #e65050;
+  color: #811616;
 }
 
 .landing-img {
@@ -62,6 +62,7 @@
 
 .landing-button {
   position: relative;
+  background-color: #52C4FF;
   margin: 25px;
   padding: 24px;
   border-radius: 12px;
@@ -69,10 +70,6 @@
   transition-duration: 0.4s;
 }
 
-#lb1:hover {
-  background-color: rgb(29, 223, 197);
-}
-
-#lb2:hover {
-  background-color: rgb(29, 223, 197);
+.landing-button:hover {
+  background-color: #516EFE;
 }
