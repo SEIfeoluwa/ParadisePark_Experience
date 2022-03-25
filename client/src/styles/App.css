@@ -50,7 +50,7 @@
     text-align: center;
     padding: 0;
     margin: 0px 0px 20px 0px;
-    color: #516efe;
+    color: black;
     font-size: x-large;
 }
 
@@ -113,9 +113,13 @@
     text-align: center;
     color: black;
     font-size: 11px;
+}
 
-
-
+.form-layout-button {
+    background: #53dde5;
+    padding: 20px 64px;
+    border-radius: 10px;
+}
 
 .landing {
   overflow: hidden;
