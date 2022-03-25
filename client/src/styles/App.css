@@ -37,7 +37,9 @@
   }
 }
 
-
+.body {
+  background-color: #52C4FF;
+}
 
 
 .landing {
@@ -94,15 +96,22 @@
   gap: 10px 20px;
 }
 .header {
-  padding: 30px;
-  text-align: right;
-  background-color: #516EFE;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3em;
   color: white;
+  background-color: #516EFE;
+
+}
+.navWord{
+  display: flex;
+justify-content: flex-end;
 }
 .corp {
-  text-align: left;
-  display: flex;
+  /* display: flex;
+  align-items: center;
+  justify-content: right;
   width: fit-content;
-  margin: 0 0 0 0;
-
+   */margin: 0 0 0 0;
 }
