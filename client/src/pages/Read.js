@@ -19,15 +19,18 @@ const Read = () => {
         <div>
             <Header />
             <section>
-                <h1>Recent reviews</h1>
+                <h1 className='rec'>Recent reviews</h1>
+                <div className='reviewContainer'>
                 {reviews.map((review) => (
                     <ReviewCard
                         key={review._id}
                         username={review.username}
                         desc={review.description}
+                        rate={review.rating}
                         {...review}
                     />
                 ))}
+                </div>
             </section>
         </div>
     )
