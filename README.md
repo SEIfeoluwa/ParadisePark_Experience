@@ -16,27 +16,32 @@
 
 ### ***Technologies Used***
 
-![Programing Languages](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/103827197/original/cb380c47fe8c75aff569b6afd91769850805b20a/help-you-with-your-html-css-javascript-projects.png)
+![Programing Languages](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/103827197/original/cb380c47fe8c75aff569b6afd91769850805b20a/help-you-with-your-html-css-javascript-projects.png) 
 
 ![MERN](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgeeksperhour.com%2Fwp-content%2Fuploads%2F2019%2F02%2Fmern-img.png&f=1&nofb=1)
 
 ***
 
 ### ***Getting Started***
-## IN PROGRESS
+#### Follow the link to the website, from there it depends on if you have been to the park or not. you can use the website to find out more about the park, or tell us all about your experience.
 
+#### *FOR DEVELOPERS*  to access the frontend you will first need to install axios, react, and react-router-dom. You will then access the client directory/src/ to make changes to the react code that holds the frontend structure. To access the backend/database you need to install express, mongodb, mongoose, and cors. You can then edit how the server requests and responds to data.
 ***
 
 ### ***Gif Placeholders***
 
-![Placeholder1](https://media0.giphy.com/media/SrmLZIT3S8oFO/giphy.gif?cid=ecf05e477zxsi4oni68oqgiszu7bafmvrel84jgoh1kcg4t8&rid=giphy.gif&ct=g)
+![Placeholder1](https://s7.gifyu.com/images/Screenshot-from-2022-03-25-14-24-04.png)
 
 
-![PlaceHolder2](https://media4.giphy.com/media/RHZqyG3nFkiAM/giphy.gif?cid=ecf05e47z2z7jgw5zur7vti8e41pzg215ipd2qg3uj6a4q5f&rid=giphy.gif&ct=g)
+![PlaceHolder2](https://s7.gifyu.com/images/Screenshot-from-2022-03-25-14-20-23.png)
 ***
 
 ### ***Future Updates***
-## IN PROGRESS
+    *Add Like/Dislike button to the reviews page.
+    *Update the css to industry standards.
+    *Review for individual rides
+    *Add a page that gives an overview of rides the park has.
+    *Allow for user to delete/edit previous posts.
 
 ***
 
