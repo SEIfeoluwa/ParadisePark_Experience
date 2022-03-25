@@ -42,10 +42,13 @@ body {
 }
 
 .form-layout {
-    max-width: 400px;
-    margin: 50px auto;
-    border-radius: 2px;
-    padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 2px;
+  padding: 20px;
+  border-radius: 1rem;
+  background-color: #516EFE;
+  box-shadow: 10px 5px 5px #7e7e81e0;
 }
 
 .form-layout h1 {
@@ -64,11 +67,11 @@ body {
 }
 
 .form-layout li {
-    display: block;
-    padding: 9px;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    border-radius: 3px;
+  display: block;
+  padding: 9px;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  border-radius: 3px;
 }
 
 .form-layout li:last-child {
@@ -78,16 +81,15 @@ body {
 }
 
 .form-layout li>label {
-    display: block;
-    float: left;
-    margin-top: -19px;
-    background: white;
-    height: 14px;
-    padding: 2px 5px 2px 5px;
-    color: black;
-    font-size: 14px;
-    overflow: hidden;
-
+  display: block;
+  float: left;
+  margin-top: -19px;
+  background: #516EFE;
+  height: 14px;
+  padding: 2px 5px 2px 5px;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
 }
 
 .form-layout input[type="text"],
@@ -109,13 +111,13 @@ body {
 
 
 .form-layout li>span {
-    background: #53dde5;
-    display: block;
-    padding: 3px;
-    margin: 0 -9px -9px -9px;
-    text-align: center;
-    color: black;
-    font-size: 11px;
+  background: #516EFE;
+  display: block;
+  padding: 3px;
+  margin: 0 -9px -9px -9px;
+  text-align: center;
+  color: white;
+  font-size: 11px;
 }
 
 
@@ -188,7 +190,7 @@ body {
   font-family: 'Rye', cursive;
 }
 .first {
-  margin-left: 1500px;
+  margin-left: 1200px;
 }
 .corp {
   display: flex;
@@ -202,4 +204,15 @@ body {
 
 .rec {
   color: white;
+}
+
+.form-layout-button:hover {
+  background: white;
+  color: #52C4FF
+}
+.form-layout-button {
+  background: #52C4FF;
+  color: white;
+  padding: 20px 64px;
+  border-radius: 10px;
 }
