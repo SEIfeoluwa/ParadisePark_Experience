@@ -37,6 +37,9 @@
     }
 }
 
+body {
+  background-color: #52C4FF;
+}
 
 .form-layout {
     max-width: 400px;
@@ -113,7 +116,7 @@
     text-align: center;
     color: black;
     font-size: 11px;
-
+}
 
 
 
@@ -161,6 +164,7 @@
   border-radius: 1rem;
   background-color: #516EFE;
   box-shadow: 10px 5px 5px #7e7e81e0;
+  color: white;
 }
 .reviewContainer {
   display: grid;
@@ -171,22 +175,32 @@
   gap: 10px 20px;
 }
 .header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 3em;
-  color: white;
   background-color: #516EFE;
 
 }
-.navWord{
-  display: flex;
-justify-content: flex-end;
+.navWord {
+  display: inline;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  color: white;
+  text-decoration-line: none;
+  font-size: large;
+  font-weight: 600;
+  font-family: 'Rye', cursive;
+}
+.first {
+  margin-left: 1500px;
 }
 .corp {
-  /* display: flex;
+  display: flex;
   align-items: center;
   justify-content: right;
-  width: fit-content;*/
+  width: fit-content;
   margin: 0 0 0 0;
+  color: white;
+  font-family: 'Rye', cursive;
+}
+
+.rec {
+  color: white;
 }
