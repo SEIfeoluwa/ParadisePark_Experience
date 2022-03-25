@@ -16,8 +16,8 @@ const App = () => {
     <div className="App">
       <Routes>
         <Route index element={<Landing />} />
-        <Route path='/review' element={<Read />} />
-        <Route path='/read' element={<Review />} />
+        <Route path='/read' element={<Read />} />
+        <Route path='/review' element={<Review />} />
       </Routes>
     </div>
   );
