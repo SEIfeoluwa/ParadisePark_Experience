@@ -8,7 +8,8 @@
 
 ### ***Description***
 
-#### This application is a review form for the experience at Paradise Park. After your fin and joy packed day at the Paradise Amusement park ...
+#### This new application that paradise entertainment corporation is launching is a simple gathering of all reviews of our guests experience at our brand new theme park the Paradise amusement park. With this new app you can tell us all about your wonderful experience or read about all the past experiences of our previous guests. The founders of the park(Ifeoluwa, Ethan, and Ryan) makes sure that your experience here are unforgettable and hold a special place in your memory forever! 
+ ...
 
 
 ***
