@@ -129,7 +129,7 @@ body {
   position: relative;
   font-family: 'Rye', cursive;
   font-size: 37px;
-  color: #e65050;
+  color: #811616;
 }
 
 .landing-img {
@@ -143,6 +143,7 @@ body {
 
 .landing-button {
   position: relative;
+  background-color: #52C4FF;
   margin: 25px;
   padding: 24px;
   border-radius: 12px;
@@ -150,9 +151,11 @@ body {
   transition-duration: 0.4s;
 }
 
-#lb1:hover {
-  background-color: mediumblue;
+.landing-button:hover {
+  background-color: #516EFE;
 }
+<<<<<<< HEAD
+=======
 
 #lb2:hover {
   background-color: gold;
@@ -204,3 +207,4 @@ body {
 .rec {
   color: white;
 }
+>>>>>>> 51ef4d31e598602f06df8ecc35927a9f9097e291
